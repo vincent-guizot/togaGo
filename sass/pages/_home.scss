@@ -1,0 +1,29 @@
+body {
+	background-color: #f5f6f7;
+}
+.slider {
+	&.container-fluid{
+		
+		padding: 0;
+	}
+}
+.copyright {
+	background: darken(#f5f6f7,5);
+}
+.local-cities {
+	.col-4{
+		position: relative;
+
+		img {
+			&:hover {
+				.img-hover {
+					display: block;
+				}
+			}
+		}
+	}	
+} 
+
+.menu {
+		background: rgba(255,255,255,0.75);
+}

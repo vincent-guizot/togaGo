@@ -1,0 +1,33 @@
+.btn {
+    // &:link, &:visited {
+    //   text-decoration: none;
+    //   border-radius: 3px;
+    //   transition: all .2s;
+    // }
+    &-blue {
+      background: $color-blue;
+      color: $color-white;
+      padding: .5rem 1.25rem;
+    }
+    &-blue:hover {
+      // background: $color-dark-blue;
+      color: $color-white;
+      box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    &-special {
+      border: 1px solid $color-white;
+      text-transform: uppercase;
+      color: $color-white;
+      background: transparent;
+      padding: .75rem 2rem;
+      
+    }
+    &-special:hover {
+      background: $color-white;
+      color: $color-dark-blue;
+    }
+
+  }
